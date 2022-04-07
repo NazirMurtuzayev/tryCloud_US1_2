@@ -1,6 +1,7 @@
 package com.trycloud.step_definitions;
 
 import com.trycloud.pages.InvalidLoginPage;
+import com.trycloud.pages.LoginPage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
