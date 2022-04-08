@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber",
                 "json:target/cucumber.json",
-                "html:target/cucumber/report.html",
                 "junit:target/junit/junit-report.xml",
                 //    "json:target/cucumber.json",
         },
