@@ -1,4 +1,4 @@
-@valid @regression
+@regression @valid
 Feature: As a user, I should be able to log in.
 
 

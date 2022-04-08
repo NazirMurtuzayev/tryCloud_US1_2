@@ -12,7 +12,6 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
-
     @FindBy(id = "user")
     public WebElement userName;
 
@@ -22,9 +21,6 @@ public class LoginPage {
 
     @FindBy(id = "submit-form")
     public WebElement logInButton;
-
-
-
 
     public void login(String username,String password){
         userName.sendKeys(username);
