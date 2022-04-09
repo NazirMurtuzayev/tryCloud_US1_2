@@ -1,6 +1,6 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/selmasenocak/trycloudAutomation.git'
+        git 'https://github.com/NazirMurtuzayev/tryCloud_US1_2.git'
     }
 
     stage('Run tests'){
