@@ -14,7 +14,7 @@ public class InvalidLoginPage {
     }
 
 
-    @FindBy(xpath = "//p[@class='warning wrongPasswordMsg']")
+    @FindBy(xpath = "//*[@class='warning wrongPasswordMsg']")
     public WebElement warningMessage;
 
 }
