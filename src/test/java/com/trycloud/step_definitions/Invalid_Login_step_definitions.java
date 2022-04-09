@@ -19,7 +19,13 @@ public class Invalid_Login_step_definitions {
 
     @Then("verify {string} message should be displayed")
     public void verify_message_should_be_displayed(String message) {
-        Assert.assertEquals(message,invalidLoginPage.warningMessage.getText());
+        System.out.println("message = " + message);
+
+        String actualMessage = invalidLoginPage.warningMessage.getText();
+
+        System.out.println("actualMessage = " + actualMessage);
+
+        Assert.assertEquals(actualMessage, message);
     }
 
 }
